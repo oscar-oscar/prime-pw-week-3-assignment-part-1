@@ -72,10 +72,16 @@ console.log(' The last food item removed is' , removedFood);
 console.log(' The favorite foods are now ' , favFoods);
 
 // Example: Add an animal to the beginning using Array.unshift
+
 animalArray.unshift('walrus');
 console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
+
+favFoods.unshift( 'fries' );
+console.log('added fries' , favFoods);
+
+
 
 
 // Example: Remove the first animal using Array.shift
