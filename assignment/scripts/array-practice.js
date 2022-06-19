@@ -79,7 +79,7 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 
 favFoods.unshift( 'fries' );
-console.log('added fries' , favFoods);
+console.log('Added fries to front of favorite foods' , favFoods);
 
 
 
