@@ -43,6 +43,7 @@ console.log('Last animal is', animalArray[3])
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
+animalArray.indexOf ('dog');
 
 
 
@@ -55,7 +56,8 @@ console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
 
-
+favFoods.push ('pizza');
+console.log('Added pizza to favorite foods' , favFoods);
 
 // Example: Remove the last animal by using Array.pop
 let removedAnimal = animalArray.pop();
