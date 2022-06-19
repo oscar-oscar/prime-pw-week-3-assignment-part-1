@@ -76,6 +76,8 @@ console.log(' The favorite foods are now ' , favFoods);
 animalArray.unshift( 'walrus' );
 console.log(`Added an animal to beginning: ${animalArray}`);
 
+
+
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 
 favFoods.unshift( 'fries' );
@@ -83,7 +85,7 @@ console.log(`Added fries to front of favorite foods: ${favFoods}`);
 //alt code = console.log('Added fries to front of favorite foods' , favFoods);
 // had trouble with this because I didn't notice the syntax diff between `` and '' in console
 //logged out array to visually see the solution because not seeing it made me think I had written it incorrectly
-console.log (favFoods);
+console.log ('the favorite foods are now', favFoods);
 
 // Example: Remove the first animal using Array.shift
 //removedAnimal = animalArray.shift();
