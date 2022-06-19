@@ -20,13 +20,13 @@ console.log('These are some of my favorite foods.', favFoods);
 
 
 // 2. Array.length - tells you how many items are in the array
-console.log('Lenght of array' ,  favFoods.length); 
+
 
 // Example: How many animals are in the array? 
-console.log('Number of animals:', animalArray.length); //lenght = 4
+console.log('Number of animals:', animalArray.length); //length = 4
 
 // 2.a. TODO: Log to the console the number of foods in your array
-
+console.log('Length of array' ,  favFoods.length); //length = 4
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
