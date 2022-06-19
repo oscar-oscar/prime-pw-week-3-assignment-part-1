@@ -79,8 +79,9 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 
 favFoods.unshift( 'fries' );
-console.log('Added fries to front of favorite foods' , favFoods);
-
+console.log(`Added fries to front of favorite foods: ${favFoods}`);
+//alt code = console.log('Added fries to front of favorite foods' , favFoods);
+// had trouble with this because I didn't notice the syntax diff between `` and '' in console
 
 
 
