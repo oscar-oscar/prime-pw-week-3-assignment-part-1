@@ -105,6 +105,15 @@ console.log('fries removed from front of array', favFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+favFoods[1] = 'bbq'
+console.table(favFoods);
+console.log('bbq is now my second favorite food');
+
+
+
+
+
+
 
 
 
